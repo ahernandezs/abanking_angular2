@@ -1,6 +1,7 @@
 {
 	"name": "abanking-alpha",
 	"version": "1.0.0",
+	"description": "Angular2-based SPA for abanking",
 	"scripts": {
 		"start": "concurrently \"npm run tsc:w\" \"npm run lite\" ",
 		"lite": "lite-server",
