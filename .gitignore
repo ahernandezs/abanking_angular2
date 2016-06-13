@@ -1,6 +1,7 @@
 typings/**
 node_modules
 jspm_packages
+.vscode
 **/*npm-debug.log.*
 *.js
 *.js.map
