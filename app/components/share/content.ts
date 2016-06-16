@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 
-import { LoginComponent } from 'app/components/auth/login/login';
-import { ImageComponent } from 'app/components/auth/image/image';
-import { UnblockComponent } from 'app/components/auth/unblock/unblock';
-import { UnblockpwdComponent } from 'app/components/auth/unblockpwd/unblockpwd';
+import { LoginComponent } from '../auth/login/login';
+import { ImageComponent } from '../auth/image/image';
+import { UnblockComponent } from '../auth/unblock/unblock';
+import { UnblockpwdComponent } from '../auth/unblockpwd/unblockpwd';
 
 @Component({
     selector: 'abanking-content',
