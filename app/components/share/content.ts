@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { RouteConfig, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
+
 
 import { LoginComponent } from '../auth/login/login';
 import { ImageComponent } from '../auth/image/image';
@@ -9,11 +11,18 @@ import { UnblockpwdComponent } from '../auth/unblockpwd/unblockpwd';
     selector: 'abanking-content',
     template:
         `<div class="container">
-            <abanking-login></abanking-login>
-            <!-- <abanking-login></abanking-login> -->
-            <!-- <abanking-image></abanking-image> -->
-            <!-- <abanking-unblock></abanking-unblock> -->
-            <!-- <abanking-unblockpwd></abanking-unblockpwd> -->
+            <router-outlet></router-outlet>
+
+            <!-- ******************************************* -->
+            <nav>
+                <a [routerLink]="['Login']">Login</a> |
+                <a [routerLink]="['Image']">Image</a> |
+                <a [routerLink]="['Unblock']">Unblock</a> |
+                <a [routerLink]="['Unblockpwd']">Unblockpwd</a>
+            </nav>
+            <br><br><br>
+            <!-- ******************************************* -->
+
         </div>
         `,
     styles: [`
@@ -24,7 +33,13 @@ import { UnblockpwdComponent } from '../auth/unblockpwd/unblockpwd';
                 	margin: 0 auto -40px;
                 }
             `],
-    directives: [LoginComponent,ImageComponent,UnblockComponent,UnblockpwdComponent]
+    directives: [ROUTER_DIRECTIVES]
 })
+@RouteConfig([
+  {path: '/login',      name: 'Login',      component: LoginComponent,      useAsDefault: true},
+  {path: '/image',      name: 'Image',      component: ImageComponent},
+  {path: '/unblock',    name: 'Unblock',    component: UnblockComponent},
+  {path: '/unblockpwd', name: 'Unblockpwd', component: UnblockpwdComponent}
+])
 
 export class ContentComponent{ }
