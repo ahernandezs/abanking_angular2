@@ -39,8 +39,4 @@ import { Component } from '@angular/core';
             `]
 })
 
-export class LoginComponent {
-	onSelect() {
-		this.router.navigate( 'Image' );
-	}
-}
+export class LoginComponent { }
