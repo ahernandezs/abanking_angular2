@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
 
 @Component({
-    selector: 'image',
+    selector: 'unlockpwd',
+    templateUrl: 'app/components/auth/unlockpwd/unlockpwd.html',
     directives: [ROUTER_DIRECTIVES],
-    templateUrl: 'app/components/auth/image/image.html',
     styles: [`
         .logo-login{
             background: url("app/assets/images/logo.png");
@@ -19,13 +19,13 @@ import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
         .card-block > .row{
             margin-top: 20px;
         }
-        #images p small span{
+        #unblockpwd p small span{
             color: #e64500;
         }
-        #images .container-fluid div div div:hover{
+        #unblockpwd .container-fluid div div div:hover{
             border: 2px solid #e64500;
         }
-        #images .space{
+        #unblockpwd .space{
             margin-bottom: 10px;
         }
         .img1_opt, .img2_opt, .img3_opt, .img4_opt, .img5_opt, .img6_opt, .img7_opt, .img8_opt, .img9_opt, .img10_opt{
@@ -87,4 +87,4 @@ import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
     `]
 })
 
-export class ImageComponent { }
+export class UnlockPwdComponent { }
