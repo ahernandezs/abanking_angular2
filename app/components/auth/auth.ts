@@ -13,7 +13,7 @@ import FooterComponent from './footer/footer';
         <div class="dark-line">
             <div class="line-head"></div>
         </div>
-        
+
         <div class="container">
             <router-outlet></router-outlet>
         </div>

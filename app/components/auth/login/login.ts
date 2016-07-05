@@ -5,20 +5,7 @@ import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
     selector: 'login',
     templateUrl: 'app/components/auth/login/login.html',
     directives: [ROUTER_DIRECTIVES],
-    styles: [`
-        .logo-login{
-            background: url("app/assets/images/logo.png");
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            -o-background-size: cover;
-            background-size: cover;
-            height: 50px;
-            width: 222px;
-            margin: 20px auto 30px auto;
-        }
-        .card-block > .row{
-            margin-top: 20px;
-        }
+    styles: [`        
         .container-logs {
             width: 225px;
             height: 39px;
@@ -30,14 +17,13 @@ import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
             width: 110px;
             height: 38px;
             display: inline-block;
+            background-size: cover;
         }
         .apple {
-            background: url("app/assets/images/logo-apple-store.svg");
-            background-size: cover;
+            background: url("../app/assets/images/logo-apple-store.svg");
         }
         .google{
-            background: url("app/assets/images/logo-google-play.svg");
-            background-size: cover;
+            background: url("../app/assets/images/logo-google-play.svg");
         }
     `]
 })
