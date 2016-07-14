@@ -5,28 +5,12 @@ import { LoginComponent } from './login/login';
 import { ImageComponent } from './image/image';
 import { UnlockComponent } from './unlock/unlock';
 import { UnlockPwdComponent } from './unlockpwd/unlockpwd';
-import FooterComponent from './footer/footer';
+import FooterComponent from '../share/footer/footer';
 
 @Component({
     selector: 'auth',
-    template: `
-        <div class="dark-line">
-            <div class="line-head"></div>
-        </div>
-
-        <div class="container">
-            <router-outlet></router-outlet>
-        </div>
-
-        <footer></footer>`,
-    styles: [`
-        .container{
-            min-height: 100%;
-            height: auto !important;
-            height: 100%;
-            margin: 0 auto -35px;
-        }
-    `],
+    templateUrl: 'app/components/auth/auth.html',
+    styleUrls: ['app/components/auth/auth.css'],
     directives: [
         ROUTER_DIRECTIVES,
         FooterComponent

@@ -7,13 +7,13 @@ import { HomeComponent } from './components/home/home';
 
 @Component({
     selector: 'abanking',
-    directives: [ROUTER_DIRECTIVES],
-    template: `<router-outlet></router-outlet>`
+    template: `<router-outlet></router-outlet>`,
+    directives: [ROUTER_DIRECTIVES]
 })
 
 @RouteConfig([
-    {path: '/...',          name: 'Auth',      component: AuthComponent,      useAsDefault: true},
-    {path: '/home/...',     name: 'Home',      component: HomeComponent}
+    { path: '/...',          name: 'Auth',      component: AuthComponent,      useAsDefault: true },
+    { path: '/home/...',     name: 'Home',      component: HomeComponent }
 ])
 
 class RootComponent {}
