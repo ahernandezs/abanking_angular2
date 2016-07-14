@@ -1,21 +1,15 @@
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { Component } from '@angular/core';
-import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from '@angular/router-deprecated';
+import { ROUTER_DIRECTIVES } from '@angular/router';
 
-import { AuthComponent } from './components/auth/auth';
-import { HomeComponent } from './components/home/home';
+import { APP_ROUTER_PROVIDERS } from './app.routes';
 
 @Component({
     selector: 'abanking',
     template: `<router-outlet></router-outlet>`,
-    directives: [ROUTER_DIRECTIVES]
+	directives: [ROUTER_DIRECTIVES]
 })
-
-@RouteConfig([
-    { path: '/...',          name: 'Auth',      component: AuthComponent,      useAsDefault: true },
-    { path: '/home/...',     name: 'Home',      component: HomeComponent }
-])
 
 class RootComponent {}
 
-bootstrap(RootComponent, [ROUTER_PROVIDERS]);
+bootstrap(RootComponent, [APP_ROUTER_PROVIDERS]);

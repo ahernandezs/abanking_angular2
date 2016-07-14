@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouteConfig, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
+import { Router, ROUTER_DIRECTIVES } from '@angular/router';
 
 import { LoginComponent } from './login/login';
 import { ImageComponent } from './image/image';
@@ -16,12 +16,11 @@ import FooterComponent from '../share/footer/footer';
         FooterComponent
     ]
 })
-
-@RouteConfig([
-    { path: '',           name: 'Login',     component: LoginComponent, useAsDefault: true },
-    { path: '/image',     name: 'Image',     component: ImageComponent },
-    { path: '/unlock',    name: 'Unlock',    component: UnlockComponent },
-    { path: '/unlockpwd', name: 'UnlockPwd', component: UnlockPwdComponent }
-])
-
-export class AuthComponent { }
+export class AuthComponent {
+	
+	/**
+	 * Class constructor. As this is the Container component for all the authentication children components
+	 * it does only require Router as a constructor parameter.
+	 */
+	constructor(private router: Router) { }
+}
