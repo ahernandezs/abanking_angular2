@@ -1,0 +1,9 @@
+small span{
+    color: #e64500;
+}
+.container-fluid div div div:hover{
+    border: 2px solid #e64500;
+}
+.space{
+    margin-bottom: 10px;
+}

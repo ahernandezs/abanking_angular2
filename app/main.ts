@@ -7,8 +7,8 @@ import { HomeComponent } from './components/home/home';
 
 @Component({
     selector: 'abanking',
-    directives: [ROUTER_DIRECTIVES],
-    template: `<router-outlet></router-outlet>`
+    template: `<router-outlet></router-outlet>`,
+    directives: [ROUTER_DIRECTIVES]
 })
 
 @RouteConfig([

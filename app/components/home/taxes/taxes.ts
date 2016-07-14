@@ -3,10 +3,9 @@ import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
 
 @Component({
     selector: 'taxes',
-    templateUrl: 'app/components/home/taxes/taxes.html',
     directives: [ROUTER_DIRECTIVES],
-    styles: [`
-    `]
+    templateUrl: 'app/components/home/taxes/taxes.html',
+    styleUrls: ['app/components/home/taxes/taxes.css']
 })
 
 export class TaxesComponent { }

@@ -9,31 +9,8 @@ import FooterComponent from '../share/footer/footer';
 
 @Component({
     selector: 'auth',
-    template: `
-        <div class="dark-line">
-            <div class="line-head"></div>
-        </div>
-
-        <div class="container">
-            <router-outlet></router-outlet>
-        </div>
-
-        <footer></footer>`,
-    styles: [`
-        .container{
-            padding-top: 25px;
-            padding-bottom: 100px;
-            min-height: 100%;
-            height: auto !important;
-            height: 100%;
-            margin: 0 auto -35px;
-        }
-        @media (max-width: 37em) {
-            .container{
-                margin: 0 auto -75px;
-            }
-        }
-    `],
+    templateUrl: 'app/components/auth/auth.html',
+    styleUrls: ['app/components/auth/auth.css'],
     directives: [
         ROUTER_DIRECTIVES,
         FooterComponent

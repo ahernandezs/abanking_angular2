@@ -3,13 +3,9 @@ import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
 
 @Component({
     selector: 'unlock',
-    directives: [ROUTER_DIRECTIVES],
     templateUrl: 'app/components/auth/unlock/unlock.html',
-    styles: [`
-        .space{
-            margin-bottom: 10px;
-        }
-    `]
+    styleUrls: ['app/components/auth/unlock/unlock.css'],
+    directives: [ROUTER_DIRECTIVES]
 })
 
 export class UnlockComponent { }

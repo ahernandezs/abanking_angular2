@@ -9,40 +9,8 @@ import FooterComponent from '../share/footer/footer';
 
 @Component({
     selector: 'home',
-    template: `
-        <navbar></navbar>
-
-        <div class="container">
-            <router-outlet></router-outlet>
-        </div>
-
-        <footer></footer>`,
-    styles: [`
-        .container{
-            padding-top: 25px;
-            padding-bottom: 100px;
-            min-height: -moz-calc(100% - 74px);
-            min-height: -webkit-calc(100% - 74px);
-            min-height: -o-calc(100% - 74px);
-            min-height: calc(100% - 74px);
-            height: auto !important;
-            height: 100%;
-            margin: 0 auto -35px;
-        }
-        @media (max-width: 37em) {
-            .container{
-                margin: 0 auto -75px;
-            }
-        }
-        @media (max-width: 33.9em) {
-            .container{
-                min-height: -moz-calc(100% - 54px);
-                min-height: -webkit-calc(100% - 54px);
-                min-height: -o-calc(100% - 54px);
-                min-height: calc(100% - 54px);
-            }
-        }
-    `],
+    templateUrl: 'app/components/home/home.html',
+    styleUrls: ['app/components/home/home.css'],
     directives: [
         ROUTER_DIRECTIVES,
         NavbarComponent,
