@@ -5,7 +5,7 @@ import { LoginComponent } from './login/login';
 import { ImageComponent } from './image/image';
 import { UnlockComponent } from './unlock/unlock';
 import { UnlockPwdComponent } from './unlockpwd/unlockpwd';
-import FooterComponent from './footer/footer';
+import FooterComponent from '../share/footer/footer';
 
 @Component({
     selector: 'auth',
@@ -21,10 +21,17 @@ import FooterComponent from './footer/footer';
         <footer></footer>`,
     styles: [`
         .container{
+            padding-top: 25px;
+            padding-bottom: 100px;
             min-height: 100%;
             height: auto !important;
             height: 100%;
             margin: 0 auto -35px;
+        }
+        @media (max-width: 37em) {
+            .container{
+                margin: 0 auto -75px;
+            }
         }
     `],
     directives: [

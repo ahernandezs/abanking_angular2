@@ -49,10 +49,16 @@ import { Component } from '@angular/core';
                 width: 60px;
             }
         }
-        @media (max-width: 33.9em) {
+        @media (max-width: 37em) {
             #footerLog{
-                height: 68px;
+                height: 75px;
             }
+            select{
+                width: 90px;
+                margin-top: 6px;
+            }
+        }
+        @media (max-width: 33.9em) {
             p:first-child{
                 padding-top: 6px;
             }

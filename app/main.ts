@@ -12,8 +12,8 @@ import { HomeComponent } from './components/home/home';
 })
 
 @RouteConfig([
-    {path: '/...',          name: 'Auth',      component: AuthComponent,      useAsDefault: true},
-    {path: '/home/...',     name: 'Home',      component: HomeComponent}
+    { path: '/home/...',          name: 'Auth',      component: AuthComponent },
+    { path: '/...',     name: 'Home',      component: HomeComponent,      useAsDefault: true }
 ])
 
 class RootComponent {}

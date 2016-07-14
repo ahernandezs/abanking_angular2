@@ -5,7 +5,7 @@ import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
     selector: 'login',
     templateUrl: 'app/components/auth/login/login.html',
     directives: [ROUTER_DIRECTIVES],
-    styles: [`        
+    styles: [`
         .container-logs {
             width: 225px;
             height: 39px;
@@ -20,10 +20,10 @@ import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
             background-size: cover;
         }
         .apple {
-            background: url("../app/assets/images/logo-apple-store.svg");
+            background: url("../app/assets/images/logos/logo-apple-store.svg");
         }
         .google{
-            background: url("../app/assets/images/logo-google-play.svg");
+            background: url("../app/assets/images/logos/logo-google-play.svg");
         }
     `]
 })
