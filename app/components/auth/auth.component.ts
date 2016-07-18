@@ -1,16 +1,11 @@
 import { Component } from '@angular/core';
 import { Router, ROUTER_DIRECTIVES } from '@angular/router';
 
-import { LoginComponent } from './login/login';
-import { ImageComponent } from './image/image';
-import { UnlockComponent } from './unlock/unlock';
-import { UnlockPwdComponent } from './unlockpwd/unlockpwd';
-import FooterComponent from '../share/footer/footer';
+import { FooterComponent } from '../share/footer/footer.component';
 
 @Component({
-    selector: 'auth',
-    templateUrl: 'app/components/auth/auth.html',
-    styleUrls: ['app/components/auth/auth.css'],
+    templateUrl: 'app/components/auth/auth.component.html',
+    styleUrls: ['app/components/auth/auth.component.css'],
     directives: [
         ROUTER_DIRECTIVES,
         FooterComponent

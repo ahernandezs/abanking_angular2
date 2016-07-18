@@ -1,9 +1,11 @@
 import { Component } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { Router, ActivatedRoute, ROUTER_DIRECTIVES } from '@angular/router';
 
 @Component({
-    templateUrl: 'app/components/auth/login/login.html',
-    styleUrls: ['app/components/auth/login/login.css']
+	selector: 'login',
+    templateUrl: 'app/components/auth/login/login.component.html',
+    styleUrls: ['app/components/auth/login/login.component.css'],
+	directives: [ROUTER_DIRECTIVES] 
 })
 export class LoginComponent {
 
@@ -18,6 +20,6 @@ export class LoginComponent {
 	}
 
 	onPreLogin(): void {
-		
+		this.router.navigate(['/image']);
 	}
 }

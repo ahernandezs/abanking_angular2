@@ -15,13 +15,13 @@
             <div class="collapse navbar-toggleable-sm">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
-                        <a href="/" class="nav-link active">Cuentas</a>
+                        <a [routerLink]="['/home']" class="nav-link active">Cuentas</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Inversiones</a>
+                        <a [routerLink]="['/home/investments']" class="nav-link">Inversiones</a>
                     </li>
                     <li class="nav-item">
-                        <a href="/" class="nav-link">Impuestos</a>
+                        <a [routerLink]="['/home/taxes']" class="nav-link">Impuestos</a>
                     </li>
                     <li class="nav-item pull-md-right">
                         <div class="dropdown">
@@ -33,7 +33,7 @@
                                 <a class="dropdown-item" href="#">Ajustes</a>
                                 <a class="dropdown-item" href="#">Tour</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Cerrar sesión</a>
+                                <a class="dropdown-item" [routerLink]="['/auth']">Cerrar sesión</a>
                             </div>
                         </div>
                     </li>
