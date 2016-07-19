@@ -2,9 +2,8 @@ import { Component } from '@angular/core';
 import { RouterOutlet, ROUTER_DIRECTIVES } from '@angular/router-deprecated';
 
 @Component({
-    selector: 'investments',
-    templateUrl: 'app/components/home/investments/investments.html',
-    styleUrls: ['app/components/home/investments/investments.css'],
+    templateUrl: 'app/components/home/investments/investments.component.html',
+    styleUrls: ['app/components/home/investments/investments.component.css'],
     directives: [ROUTER_DIRECTIVES]
 })
 
