@@ -21,20 +21,89 @@ div.top p {
     width: 30px;
     margin: 5px 15px 0px 0px;
 }
+li.pull-md-right, li.pull-md-right div{
+    padding: 0px;
+}
+li div span {
+    color: rgba(255,255,255,.5);
+    display: inline-block;
+    vertical-align: middle;
+}
+li div span div span:hover {
+    color: rgba(255,255,255,.75);
+    cursor: pointer;
+}
+#globo1:before, #globo2:before {
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 12px 16px;
+    border-color: #FFFFFF transparent #FFFFFF transparent;
+    top: -10px;
+    right: 7px;
+}
+div.dropdown-menu {
+    border: none;
+    width: 300px;
+    cursor: default;
+    padding: 20px 30px 40px 30px!important;
+}
+div.dropdown-menu p {
+    text-align: center;
+    font-size: .7em;
+    margin-top: -15px;
+}
+div.dropdown-menu p:first-child {
+    color: #00b1d2;
+    font-size: 1em;
+    font-weight: 600;
+    margin-top: 0px;
+}
+div.dropdown-menu div div a {
+    cursor: default;
+}
+.icon-bubbles3, .icon-envelop, .icon-mobile2, .icon-wrench, .icon-binoculars {
+    color: #00b1d2 !important;
+    font-size: 30px;
+}
+.icon-bubbles3 {
+    font-size: 28px;
+}
+div.circle {
+    border: 1px solid #d0d0d0;
+    background-color: #ffffff;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #00b1d2;
+    font-size: 14px;
+    text-align: center;
+}
+div.circle:hover {
+    background-color: #f4f4f4;
+}
+div.circle div {
+    width: 29px;
+    height: 35px;
+    margin: 14px auto;
+}
+div.circle div.icon-envelop {
+    margin: 12px auto;
+}
 button.navbar-toggler {
     color: #FFFFFF;
     outline: none;
     margin: 8px 0px 8px 0px;
     padding: 0;
 }
-.dropdown-toggle, .icon-question, .icon-cog{
+.dropdown-toggle, .icon-question, .icon-cog {
     color: rgba(255,255,255,.5);
 }
 .dropdown-toggle:active, .dropdown-toggle:hover, .icon-question:active, .icon-question:hover, .icon-cog:active, .icon-cog:hover{
     color: rgba(255,255,255,.75);
-}
-.dropdown-menu {
-    margin-right: 40px;
 }
 a.navbar-brand {
     cursor: pointer;
