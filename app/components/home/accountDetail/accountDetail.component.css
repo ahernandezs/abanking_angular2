@@ -1,0 +1,69 @@
+div.line-dark {
+    height: 54px;
+    width: 100%;
+    background-color: #3f454f;
+    margin-top: -25px;
+    position: absolute;
+    left: 0;
+}
+.line-dark p {
+    color: rgba(255,255,255,.9);
+}
+#title-text > div {
+    height: 54px;
+    padding-top: 12px;
+}
+#title-text div:first-child {
+    background-color: #61666f;
+}
+#title-text p {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
+.icon-circle-down {
+    cursor: pointer;
+}
+#services-ico > div  {
+    padding: 0;
+}
+#services-ico > div:hover {
+    background-color: #61666f;
+}
+div.icon-services {
+    width: 100%;
+    height: 54px;
+}
+div.icon-services > div {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: rgba(255,255,255,.75);
+    height: 25px;
+    width: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+div.icon-services > p{
+    cursor: pointer;
+    color: rgba(255,255,255,.75);
+    padding-top: 4px;
+    font-size: .7em;
+    text-align: center;
+}
+div.back-detail {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    border-left: 2px solid #e7e7e7;
+    margin-left: -15px;
+}
+@media (max-width: 991px) {
+    div.back-detail {
+        position: absolute;
+        border: none;
+        border-top: 20px solid #FFFFFF;
+    }
+}

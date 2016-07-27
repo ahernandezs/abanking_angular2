@@ -105,9 +105,6 @@ button.navbar-toggler {
 .dropdown-toggle:active, .dropdown-toggle:hover, .icon-question:active, .icon-question:hover, .icon-cog:active, .icon-cog:hover{
     color: rgba(255,255,255,.75);
 }
-a.navbar-brand {
-    cursor: pointer;
-}
 .navbar-nav .nav-item {
     float: none;
 }
