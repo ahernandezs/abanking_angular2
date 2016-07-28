@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { Router, ActivatedRoute, ROUTER_DIRECTIVES } from '@angular/router';
 
 @Component({
-    selector: 'unlockpwd',
     templateUrl: 'app/components/auth/unlockpwd/unlockpwd.component.html',
     styleUrls: ['app/components/auth/unlockpwd/unlockpwd.component.css'],
 	directives: [ROUTER_DIRECTIVES]

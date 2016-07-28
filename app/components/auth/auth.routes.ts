@@ -12,7 +12,7 @@ export const AuthRoutes: RouterConfig = [
 		component: AuthComponent,
 		children: [
 			{ path: '', component: LoginComponent },
-			{ path: 'image', component: ImageComponent },
+			{ path: 'image', component: ImageComponent, data: { images: [] } },
 			{ path: 'unlock', component: UnlockComponent },
 			{ path: 'unlockpwd', component: UnlockPwdComponent }			
 		]
