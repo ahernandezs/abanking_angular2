@@ -5,7 +5,7 @@ div.title {
 div.title > p {
     color: #3f454f;
     font-size: 1.2em;
-    font-weight: lighter;
+    font-weight: 600;
 }
 div.title + div {
     margin-top: 0;

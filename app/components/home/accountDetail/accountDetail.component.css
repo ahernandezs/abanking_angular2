@@ -65,5 +65,6 @@ div.back-detail {
         position: absolute;
         border: none;
         border-top: 20px solid #FFFFFF;
+        background-color: #FFFFFF;
     }
 }

@@ -2,6 +2,12 @@ div#transactions {
     height: 80px;
     padding-top: 38px;
 }
+@media (max-width: 991px) {
+    div#transactions {
+        height: 110px;
+        padding-top: 52px;
+    }
+}
 #transactions button#btn-ico {
     border-radius: 4px;
     font-size: .7em;
