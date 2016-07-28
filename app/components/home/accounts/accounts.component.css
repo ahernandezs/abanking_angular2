@@ -125,8 +125,3 @@ img {
     width: 94px;
     margin: 6px auto 0px auto;
 }
-@media (min-width: 62em) and (max-width: 74.9em){
-    #black .card-block:first-child{
-
-    }
-}
