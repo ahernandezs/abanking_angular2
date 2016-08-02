@@ -1,30 +1,21 @@
 div#transactions {
-    height: 80px;
-    padding-top: 38px;
-}
-@media (max-width: 991px) {
-    div#transactions {
-        height: 110px;
-        padding-top: 52px;
-    }
+    height: 43px;
 }
 #transactions button#btn-ico {
     border-radius: 4px;
     font-size: .7em;
     width: 100%;
-    padding-top: 1px;
 }
 #btn-ico span.hidden-lg-up {
-    padding-top: 1px;
     font-size: 1.4em;
 }
 #transactions .dropdown {
     margin-top: 0;
 }
 #transactions button {
-    padding-top: 0;
+    padding-top: 4px;
     font-size: 1em;
-    height: 32px;
+    height: 28px;
     width: 110px;
     padding-left: 10px;
     border-radius: 0;
@@ -44,6 +35,7 @@ div#transactions {
     border-bottom-right-radius: 4px;
 }
 #transactions div.icon-form input {
+    height: 28px;
     padding-left: 32px;
     float: left;
     width: -moz-calc(100% - 220px);
@@ -53,6 +45,7 @@ div#transactions {
     border-radius: 0;
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
+    border: 1px solid #cccbcb !important;
 }
 @media (max-width: 61.9em) {
     #transactions button {
@@ -74,21 +67,19 @@ div#transactions {
     position: absolute;
     border-style: solid;
     border-width: 0 16px 12px 16px;
-    border-color: #f5f5f5 transparent #f5f5f5 transparent;
+    border-color: #f2f2f2 transparent #f2f2f2 transparent;
     top: -10px;
     right: 7px;
 }
 #transactions div.dropdown-menu {
     border: none;
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
 }
 #transactions .dropdown-item:hover {
     background-color: #d8dde2;
 }
 #transactions .dropdown-header {
-    border-bottom-style: solid;
-    border-bottom-color: #dddddd;
-    border-bottom-width: 1px;
+    border-bottom: 1px solid #dddddd;
 }
 #table-tran thead tr {
     background-color: #f4f4f4;
@@ -145,5 +136,4 @@ div#transactions {
 #table-tran .status:hover {
     width: 14px;
     height: 14px;
-    border: 2px solid #00b1d2;
 }

@@ -7,6 +7,10 @@ p.corte {
     font-size: .7em;
     color: #3f454f;
 }
+.card {
+    height: 300px;
+    max-height: 300px;
+}
 .cards > div:nth-child(3) {
     background-color: #f1f1f1;
     padding-top: 5px;
@@ -60,8 +64,9 @@ input[type="radio"]:checked + label span {
     padding-bottom: 0px;
 }
 .footbtn {
-    margin-top: 20px;
-    height: 40px;
+    padding-top: 14px;
+    margin-top: 0px;
+    height: 45px;
 }
 a {
     font-size: .7em;
@@ -97,9 +102,10 @@ img {
 }
 .credit p {
     line-height:18px;
+    color: #3f454f;
 }
 .credit p:first-child {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 1em;
 }
@@ -109,8 +115,7 @@ img {
 }
 .credit p:last-child {
     font-size: .75em;
-    color: #3f454f;
-    margin-bottom: 32px;
+    margin-bottom: 22px;
 }
 .credit .cont-img {
     min-height: 155px;
