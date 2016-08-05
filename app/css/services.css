@@ -3,11 +3,12 @@ div.title {
 }
 div.title > p {
     color: #3f454f;
-    font-size: 1em;
+    font-size: .9em;
     font-weight: 600;
 }
 div.title .btn {
-    margin-left: 5px;
+    margin-left: 4px;
+    font-size: .9em;
 }
 div.divider-detail {
     margin: 0;
@@ -38,4 +39,17 @@ ul {
 }
 textarea {
     margin-bottom: -15px;
+}
+.icon-form > div {
+    color: #008fb5;
+}
+.btn-danger {
+    background-color: rgb(163, 162, 162) !important;
+}
+.btn-danger:hover {
+    background-color: rgba(163, 162, 162, 0.8) !important;
+}
+.btn-secondary {
+    border: 1px solid #cccbcb !important;
+    color: #6f747a !important;
 }
