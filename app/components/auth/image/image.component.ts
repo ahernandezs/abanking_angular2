@@ -1,15 +1,20 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Router, ActivatedRoute, ROUTER_DIRECTIVES } from '@angular/router';
 
+import { ImagesLoginComponent } from '../../share/images-login/images-login.component';
+
 @Component({
     templateUrl: 'app/components/auth/image/image.component.html',
     styleUrls: ['app/components/auth/image/image.component.css'],
-	directives: [ROUTER_DIRECTIVES]
+	directives: [
+        ROUTER_DIRECTIVES,
+        ImagesLoginComponent
+    ]
 })
 
 export class ImageComponent {
 	sub: any;
-	
+
 	/**
 	 * Nested component, child of AuthComponent. This component and its siblings require the
 	 * ActivatedRoute and Router constructor parameters.

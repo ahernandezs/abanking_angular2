@@ -1,0 +1,55 @@
+div.title {
+    height: 43px;
+}
+div.title > p {
+    color: #3f454f;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+div.title + div {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+div.divider-detail {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 15px;
+}
+ul, li {
+    padding: 0;
+}
+ul {
+    list-style: none;
+    font-size: .8em;
+}
+li {
+    width: 100%;
+    height: 20px;
+}
+ul p {
+    font-weight: 600;
+    font-size: .9em;
+    text-align: justify;
+    color: #3f454f;
+    margin-top: 5px;
+}
+li div:first-child {
+    float: left;
+    height: 20px;
+    width: 65%;
+    color: #808288;
+}
+li div:last-child {
+    height: 20px;
+    width: 35%;
+    float: right;
+    font-weight: 600;
+    text-align: right;
+    color: #595f6a;
+}
+div > i {
+    width: 10px;
+}

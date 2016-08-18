@@ -1,0 +1,139 @@
+div#transactions {
+    height: 43px;
+}
+#transactions button#btn-ico {
+    border-radius: 4px;
+    font-size: .7em;
+    width: 100%;
+}
+#btn-ico span.hidden-lg-up {
+    font-size: 1.4em;
+}
+#transactions .dropdown {
+    margin-top: 0;
+}
+#transactions button {
+    padding-top: 4px;
+    font-size: 1em;
+    height: 28px;
+    width: 110px;
+    padding-left: 10px;
+    border-radius: 0;
+    color: #3f454f !important;
+    border: 1px solid #cccbcb !important;
+}
+#drop1 {
+    right: 0;
+    right: 125px;
+}
+#drop2 {
+    right: 0;
+    margin-right: .9375rem;
+}
+#drop2 button {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+#transactions div.icon-form input {
+    height: 28px;
+    padding-left: 32px;
+    float: left;
+    width: -moz-calc(100% - 220px);
+    width: -webkit-calc(100% - 220px);
+    width: -o-calc(100% - 220px);
+    width: calc(100% - 220px);
+    border-radius: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #cccbcb !important;
+}
+@media (max-width: 61.9em) {
+    #transactions button {
+        width: 48px;
+    }
+    #drop1 {
+        right: 62px;
+    }
+    #transactions div.icon-form input {
+        width: -moz-calc(100% - 95px);
+        width: -webkit-calc(100% - 95px);
+        width: -o-calc(100% - 95px);
+        width: calc(100% - 95px);
+    }
+}
+#globo3:before, #globo4:before {
+    content: "";
+    width: 0;
+    position: absolute;
+    border-style: solid;
+    border-width: 0 16px 12px 16px;
+    border-color: #f2f2f2 transparent #f2f2f2 transparent;
+    top: -10px;
+    right: 7px;
+}
+#transactions div.dropdown-menu {
+    border: none;
+    background-color: #f2f2f2;
+}
+#transactions .dropdown-item:hover {
+    background-color: #d8dde2;
+}
+#transactions .dropdown-header {
+    border-bottom: 1px solid #dddddd;
+}
+#table-tran thead tr {
+    background-color: #f4f4f4;
+    color: #3f454f;
+}
+#table-tran thead tr th {
+    font-weight: 400;
+    font-size: .8em;
+    text-align: left;
+}
+#table-tran thead tr th:first-child, #table-tran thead tr th:last-child {
+    text-align: center;
+}
+#table-tran thead tr th:nth-child(4) {
+    text-align: right;
+}
+#table-tran tbody tr td {
+    cursor: pointer;
+    font-weight: 300;
+    font-size: .7em;
+}
+#table-tran p.month, #table-tran p.day{
+    margin: 0;
+    line-height: 12px;
+    text-align: center;
+}
+#table-tran p.month {
+    font-size: .8em;
+}
+#table-tran p.day {
+    font-size: 1.4em;
+    font-weight: 600;
+    color: #5e6570;
+}
+#table-tran p.place, #table-tran p.more{
+    margin: 0;
+    line-height: 12px;
+}
+#table-tran p.more {
+    color: #5e6570;
+}
+#table-tran tr td:nth-child(4) p {
+    font-weight: 600;
+    text-align: right;
+    min-width: 85px;
+}
+#table-tran .status {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+#table-tran .status:hover {
+    width: 14px;
+    height: 14px;
+}

@@ -1,0 +1,71 @@
+div.line-dark {
+    height: 54px;
+    width: 100%;
+    background-color: #3f454f;
+    margin-top: -15px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+div.menu-dark {
+    color: rgba(255,255,255,.9);
+    margin-top: -15px;
+    margin-bottom: 15px;
+    height: 54px;
+    width: 100%;
+    z-index: 1;
+}
+div.menu-dark a {
+    color: #FFFFFF;
+}
+div.menu-dark a:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+#title-text > div {
+    line-height: normal;
+    padding-top: 12px;
+}
+#title-text div:first-child {
+    background-color: #61666f;
+    height: 54px;
+}
+#services-ico > div, div.icon-services {
+    padding: 0;
+    height: 54px;
+    max-height: 54px;
+}
+#services-ico div:hover {
+    background-color: #61666f;
+}
+div.icon-services a > div {
+    cursor: pointer;
+    font-size: 1.2em;
+    color: rgba(255,255,255,.8);
+    height: 25px;
+    width: 20px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+div.icon-services a > p{
+    cursor: pointer;
+    color: rgba(255,255,255,.8);
+    padding-top: 4px;
+    font-size: .7em;
+    text-align: center;
+}
+div.back-detail {
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+    border-left: 2px solid #e7e7e7;
+    margin-left: -15px;
+}
+@media (max-width: 991px) {
+    div.back-detail {
+        border: none;
+        background-color: #FFFFFF;
+    }
+}
