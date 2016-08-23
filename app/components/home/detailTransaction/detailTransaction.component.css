@@ -1,0 +1,82 @@
+div.title {
+    height: 43px;
+}
+div.title > p {
+    color: #3f454f;
+    font-size: 1em;
+    font-weight: 600;
+}
+div.divider-detail {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(240, 240, 240);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+div.divider-detail:first-child {
+    margin-top: 0;
+}
+ul p {
+    font-weight: 600;
+    font-size: .9em;
+    text-align: justify;
+    color: #3f454f;
+    margin: 0;
+}
+div.more p:nth-child(2) {
+    font-size: 1.5em;
+    color: #747373;
+}
+div.more p:last-child {
+    font-size: 2.5em;
+    color: #d9534f;
+    margin-top: -8px;
+    margin-bottom: -10px;
+}
+ul, li {
+    padding: 0;
+}
+ul {
+    list-style: none;
+    font-size: .8em;
+}
+li {
+    width: 100%;
+    height: 20px;
+}
+li div:first-child {
+    float: left;
+    height: 20px;
+    width: 65%;
+    color: #808288;
+}
+li div:last-child {
+    height: 20px;
+    width: 35%;
+    float: right;
+    font-weight: 600;
+    text-align: right;
+    color: #595f6a;
+}
+li.function div:first-child {
+    float: left;
+    height: 20px;
+    width: 35%;
+    color: #439e3b;
+}
+li.function div:last-child {
+    height: 20px;
+    width: 65%;
+    float: right;
+    font-weight: 600;
+    text-align: right;
+    color: #595f6a;
+}
+div.maps {
+    margin-top: 15px;
+    width: 100%;
+    height: 150px;
+    background: url('app/assets/images/map.png') no-repeat center;
+}
