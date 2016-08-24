@@ -3,7 +3,7 @@ div.title {
 }
 div.title > p {
     color: #3f454f;
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
 }
 div.title + div {

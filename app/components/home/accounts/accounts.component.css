@@ -86,10 +86,6 @@ a.card-link {
 }
 img {
     display: block;
-    /* max-width: none !important; */
-    /* max-height: 200px; */
-    /* margin: -30px auto; */
-    /* margin-left: -25px; */
     object-fit: cover;
     height: 150px;
     width: 100%;
