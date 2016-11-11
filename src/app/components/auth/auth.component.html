@@ -1,0 +1,6 @@
+<div *ngIf="myUrl == 'auth'">
+	<login (newView)="changeViewHandler($event)"></login>
+</div>
+<div *ngIf="myUrl == 'unlock'">
+	<unlock (toLogin)="changeViewHandler($event)"></unlock>
+</div>
